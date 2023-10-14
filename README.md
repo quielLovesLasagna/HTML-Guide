@@ -7,7 +7,7 @@ This repository contains some of the things I learned about HTML (Hypertext Mark
 HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. [Source](https://developer.mozilla.org/en-US/docs/Web/HTML)
 ___
 
-[## HTML Basics](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/HTML%20Basics)
+##[HTML Basics](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/HTML%20Basics)
 
 | Topic | Code | Description |
 | ----------- | ----------- | ----------- |
