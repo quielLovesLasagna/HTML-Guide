@@ -39,3 +39,21 @@ ___
 | Inline Vs. Block Elements | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/inlineAndBlock.html) | Learn what inline and block element is, and what are some types of inline and block elements |
 | Text Elements Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/TextElementsExerciseImage.png) | An exercise to test your knowledge on the topics mentioned above |
 | Solution to Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/solution.html) | Exercise Solution |
+
+___
+
+[````Links and Images````](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Links%20and%20Images)
+
+| Topic | Code | Description |
+| ----------- | ----------- | ----------- |
+| Introduction To Anchor Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Links%20and%20Images/introToAnchor.html) | An introduction to anchor element |
+| Creating Relative Links | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Links%20and%20Images/createRelativeLinks.html) | Learn how to create relative links and how to properly refer links |
+| Linking To Page Elements | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Links%20and%20Images/linkingPageEl.html) | Learn how to refer to an element/section on the same page |
+| Mailto and Telephone Links | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Links%20and%20Images/mailtoAndTeleLinks.html) | Learn how to link your email and telephone |
+| Creating Image Elements | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Links%20and%20Images/createImg.html) | Learn how to create images |
+| The Alt Attribute | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Links%20and%20Images/altAttr.html) | Learn about the alt attribute and when to use it |
+| Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Links%20and%20Images/Exercise/Starter) | An exercise to test your knowledge on the topics mentioned above |
+| Exercise Solution | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Links%20and%20Images/Exercise/Solution) | Exercise Solution |
+
+__
+
