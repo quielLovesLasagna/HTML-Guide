@@ -19,3 +19,19 @@ ___
 | HTML Basics Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/HTML%20Basics/html_basics_starter.html) | Basic HTML exercise with solution |
 
 ___
+
+[````Text Elements ````](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Text%20Elements)
+
+| Topic | Code | Description |
+| ----------- | ----------- | ----------- |
+| The Strong Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/strongelement.html) | Learn about the strong element and when to use it |
+| The Bring Attention To Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/bringattentionelement.html) | Learn about the bring attention to element and when to use it |
+| The Emphasis Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/emphasiselement.html) | Learn about the emphasis element and when to use it |
+| The Idiomatic Text Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/idiomatictext.html) | Learn about the idiomatic text element and when to use it |
+| Nesting Elements | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/nesting.html) | Learn when and how HTML elements are nested |
+| Superscript and Subscript | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/superSubscripts.html) | Learn about superscript and subscript element and when to use them |
+| Creating Lists | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/lists.html) | Learn about lists, when and how to use them |
+| Nesting Lists | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/nestinglists.html) | Learn to nest lists and the proper way to nest lists |
+| Inline Vs. Block Elements | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/inlineAndBlock.html) | Learn what inline and block element is, and what are some types of inline and block elements |
+| Text Elements Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/TextElementsExerciseImage.png) | An exercise to test your knowledge on the topics mentioned above |
+| Solution to Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Text%20Elements/solution.html) | Exercise Solution |
