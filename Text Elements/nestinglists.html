@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nesting Lists</title>
+  </head>
+  <body>
+    <!-- Both <ul> and <ol> can be nested together. -->
+    <!--
+        The proper way of nesting lists is: 
+        You nest lists inside the same list item
+        with regards to what you want to list/to that item.
+
+        In the example below: I have a <ul> which have a list of Hot Drinks
+        inside Hot Drinks, I added a <ul> to list what type of Hot Drinks I have
+     -->
+    <h3>Our Drinks</h3>
+    <ul>
+      <li>
+        Hot Drinks
+        <ul>
+          <li>Coffee</li>
+          <li>Tea</li>
+        </ul>
+      </li>
+      <li>
+        Cold Drinks
+        <ul>
+          <li>
+            Juices
+            <ul>
+              <li>Apple Juice</li>
+              <li>Grapefruit</li>
+              <li>Orange Juice</li>
+            </ul>
+          </li>
+          <li>Coke</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
