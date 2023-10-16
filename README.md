@@ -55,5 +55,5 @@ ___
 | Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Links%20and%20Images/Exercise/Starter) | An exercise to test your knowledge on the topics mentioned above |
 | Exercise Solution | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Links%20and%20Images/Exercise/Solution) | Exercise Solution |
 
-__
+___
 
