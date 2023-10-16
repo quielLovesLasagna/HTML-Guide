@@ -87,4 +87,4 @@ ___
 | Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Forms/Exercise/Starter) | An exercise to test your knowledge on the topics mentioned above |
 | Exercise Solution | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Forms/Exercise/Solution) | Exercise Solution |
 
-__
+___
