@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Making Dropdowns with Select and Options</title>
+  </head>
+  <body>
+    <!-- 
+        selects is it's own element, it is not a type
+        of input. We use selects to create a dropdown 
+        select menu with a bunch of options.
+
+        The way we use this is by using two elements together.
+        The <selects></selects> element wraps around one or more
+        <option></option> element. Each option element will represent
+        one of those options from the list that you can select.
+
+        If you want to have one of the options pre selected,
+        you can use the "selected" attribute on one of those options.
+        The selected is similar to required and checked where you don't
+        set it equal to anything.
+    -->
+    <h1>Selects</h1>
+    <form action="">
+      <div>
+        <label for="skillevel">Select your skill level</label>
+        <select name="skillevel" id="skillevel">
+          <option value="1">Level 1 - Beginner</option>
+          <option value="2" selected>Level 2 - Intermediate</option>
+          <option value="3">Level 3 - Expert</option>
+        </select>
+      </div>
+      <button>Submit</button>
+    </form>
+    <!-- 
+        IN THE CASE IF YOU DID NOT SET THE VALUE ATTRIBUTE TO OPTION ELEMENT:
+        If you submit the form it will look like this;
+        skillevel=Level+2+-+Intermediate
+        It just took the value from inside the option tags (the text content)
+
+        IN THE CASE IF YOU SET THE VALUE ATTRIBUTE TO OPTION ELEMENT:
+        We can add the value attribute to each option element and whatever
+        value we specify will be sent as the corresponding value. That makes it easier 
+        on the server side when we submit the form.
+        skillevel=2
+    -->
+  </body>
+</html>

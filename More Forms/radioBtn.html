@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating Radio Button Groups</title>
+  </head>
+  <body>
+    <!-- 
+        <input type="radio" />
+        Radio buttons are usually grouped together.
+        Only ONE option can be selected.
+
+        To connect/group these radio input type is by
+        using the name attribute in the input. We must
+        do this so that the user can only select one input/option.
+    -->
+    <h1>Radio Buttons</h1>
+    <form action="">
+      <div>
+        <input type="radio" id="small" name="size" value="s" />
+        <label for="small">Small</label>
+      </div>
+      <div>
+        <input type="radio" id="medium" name="size" value="m" />
+        <label for="medium">Medium</label>
+      </div>
+      <div>
+        <input type="radio" id="large" name="size" value="l" />
+        <label for="large">Large</label>
+      </div>
+      <button>Submit</button>
+    </form>
+    <!-- 
+        If you select one option and submit the form,
+        the URL will look like this:
+        size=on => this is not how it should be, we must add
+        a value attribute to the each input/option.
+        
+        <input type="radio" id="medium" name="size" />
+        Now, if we submit the form again, the URL will look like this:
+        size=m
+    -->
+  </body>
+</html>

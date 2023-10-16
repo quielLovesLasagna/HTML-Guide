@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working With Checkboxes</title>
+  </head>
+  <body>
+    <!-- 
+        <input type="checkbox" />
+        Use type="checkbox" to create a checkbox element.
+        
+        If you have a checkbox that is checkedm, and you submit that form,
+        the value under the name, which in this case is "subscribe" will
+        be set to "on". If you leave it unchecked, it's just not sent at all.
+
+        If you want the checkbox to start as checked, in your checkbox input type,
+        you add the "checked" attribute. Note that this attribute is like the 
+        required attribute where we don't set it to anything and just leave it.
+    -->
+    <h2>Checkboxes</h2>
+    <form action="">
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Username" />
+      </div>
+      <div>
+        <label for="checkbox">Checkbox</label>
+        <input type="checkbox" id="checkbox" name="subscribe" checked />
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

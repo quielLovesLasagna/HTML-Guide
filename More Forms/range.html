@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Range (Slider) Input</title>
+  </head>
+  <body>
+    <!-- 
+        <input type="range" min="0" max="11" />
+        Use type="range" to create a range input (slider)
+        The range input is basically a numeric sllider.
+
+        From Left to right, it's a slider that you're moving around
+        from what min value to what max value.
+
+        range type input does not tell you where you are at the range of
+        min and max.
+
+        Use range type input for things where precision doesn't really
+        matter or there is a sliding scale and a user is contantly adapting
+        like volume.
+
+        By default, the volume will start at the middle. 
+        You can also control the initial value of the range by doing:
+        value="your initial value"
+
+        You can also set a step="" this means that every
+        time you move the slider, it will step by the value you
+        assign to the step attribute.
+
+        NOTE: Only use these attributes to control the range
+        in specific cases. Only use the input type range in cases
+        where precision does not matter.
+
+        See the code below
+    -->
+    <h1>Input Range</h1>
+    <form action="">
+      <div>
+        <label for="volume">Select Volume</label>
+        <input
+          type="range"
+          min="0"
+          max="10"
+          id="volume"
+          name="volume"
+          value="2"
+        />
+        <button>Submit</button>
+      </div>
+      <!-- 
+        If you submit the form, you'll see at the URl that the 
+        number is sent under the name, which in this case is
+        volume.
+
+        e.g.: volume=6
+      -->
+    </form>
+  </body>
+</html>

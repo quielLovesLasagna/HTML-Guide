@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fieldsts and Legends</title>
+  </head>
+  <body>
+    <!-- 
+        <fieldset> this is not an input, it is
+        not a form control. Instead, it's actually
+        something we use to group together form controls.
+
+        An example of this is when you  have radio input types
+        which are usually grouped, and you want to have some 
+        sort of overarching label to explain what the user is selecting.
+
+        We can then add a <legend></legend> element right inside the fieldset.
+        The legend element is going to explain what the grouping is for.
+        It's basically a label or a caption for the fieldset.
+        
+        Doing this will be better for users who are using screen reader.
+
+        What's actually cool about this is that we can disable all of the 
+        elements (inputs) at once. If we want to totally disable the entire inputs,
+        you can do: <fieldset disabled>...inputs...</fieldset>
+    -->
+    <h1>Fieldset and Legends</h1>
+    <form action="">
+      <fieldset disabled>
+        <legend>Pick Your Shirt Size</legend>
+        <div>
+          <input type="radio" id="small" name="size" value="s" />
+          <label for="small">Small</label>
+        </div>
+        <div>
+          <input type="radio" id="medium" name="size" value="m" />
+          <label for="medium">Medium</label>
+        </div>
+        <div>
+          <input type="radio" id="large" name="size" value="l" />
+          <label for="large">Large</label>
+        </div>
+        <button>Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
