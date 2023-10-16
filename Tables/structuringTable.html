@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Structuring Tables</title>
+  </head>
+  <body>
+    <!-- 
+        <thead> => indicates the heading part of the table
+        <tbody>
+        <tfoot>
+
+        Theses 3 elements helps us break up a table into
+        different chunks.
+        
+        All table elements is put inside of the
+        <tbody> by default. 
+        
+        So we must properly structure
+        our table using the 3 elements mentioned above.
+
+        One advantage of properly structuring our table is
+        that we can style them differently using CSS. So we
+        can now easily write styles that only affect the <thead> and so on...
+        Also, the table will become more accessible, we have highlighted to 
+        screen readers what the heading content is of a table, what the main body
+        is of a table. 
+    -->
+    <h1>Example</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Movies Title</th>
+          <th>Year</th>
+          <th>IMDB Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The Shawshank Redemption</td>
+          <td>1994</td>
+          <td>9.2</td>
+        </tr>
+        <tr>
+          <td>The Godfather</td>
+          <td>1972</td>
+          <td>9.2</td>
+        </tr>
+        <tr>
+          <td>The Dark Knight</td>
+          <td>2008</td>
+          <td>9.0</td>
+        </tr>
+        <tr>
+          <td>The Godfather II</td>
+          <td>1974</td>
+          <td>9.0</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Sample Foot</td>
+          <td>123</td>
+          <td>123</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
