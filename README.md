@@ -71,3 +71,20 @@ ___
 | Exercise Solution | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Tables/Exercise/Solution) | Exercise Solution |
 
 ___
+
+[````HTML Forms````](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Forms)
+
+| Topic | Code | Description |
+| ----------- | ----------- | ----------- |
+| Write Your First Form Input | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Forms/firstFormInput.html) | Write your very first form input |
+| The Form Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Forms/formElement.html) | Learn about the form element and how it works |
+| Creating Buttons | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Forms/creatingBtns.html) | Learn how to create buttons and how buttons work |
+| Email, URL, & Number Inputs | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Forms/emailUrlNumber.html) | Learn how to make email, url, and number type inputs |
+| Creating Input Labels | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Forms/inputLabels.html) | Learn how to create input labels and their importance |
+| The Name Attribute | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Forms/nameAttr.html) | Learn about the name attribute and what its used for |
+| The Required Attribute | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Forms/requiredAttr.html) | Learn about the required attribute and what its used for |
+| A Quick Note On Divs | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Forms/noteOnDivs.html) | A quick note on divs and what its used for |
+| Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Forms/Exercise/Starter) | An exercise to test your knowledge on the topics mentioned above |
+| Exercise Solution | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Forms/Exercise/Solution) | Exercise Solution |
+
+__
