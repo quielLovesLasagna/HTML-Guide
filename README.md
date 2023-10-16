@@ -57,3 +57,17 @@ ___
 
 ___
 
+[````HTML Tables````](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Tables)
+
+| Topic | Code | Description |
+| ----------- | ----------- | ----------- |
+| Introduction To HTML Tables | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Tables/introToTables.html) | An introduction to HTML Tables |
+| Working With table, tr, and td | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Tables/workingWithTables.html) | Learn to work with table, tr, and td |
+| Creating Table Headers | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Tables/tableHeaders.html) | Learn how to create table headers |
+| Structuring Tables With thead, tbody, and tfoot | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Tables/structuringTable.html) | Learn how to properly structure tables |
+| Adding Caption To Tables | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Tables/tableCaption.html) | Learn how to add caption and what it is |
+| Working With colspan And rowspan | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Tables/colspanAndrowSpan.html) | Learn how to use colspan and rowspan |
+| Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Tables/Exercise/Starter) | An exercise to test your knowledge on the topics mentioned above |
+| Exercise Solution | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Tables/Exercise/Solution) | Exercise Solution |
+
+___
