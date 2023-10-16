@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Form Element</title>
+  </head>
+  <body>
+    <!-- 
+        <form></form>
+
+        Visually, we can't see the "form" but it does do something that is very
+        important in a typical web application:
+        1) It holds a bunch of form controls,
+        inputs, buttons, checkboxes, all that stuff. It groups them together.
+
+        2) When that form is submitted, it will send that data somewhere. And that's
+        a critical part.
+
+        Here's the rules of making a form:
+        1) An action is going to be set to some URl/some location where the form data
+        will be sent to.
+        2) Method attribute, this is the type pf HTTP request that the form will submit.
+
+        To submit the form, we can use a button element inside the form element.
+        The default behavior of a button in a form is that it will submit that form.
+
+        <form action="/signup" method="get">
+            Form Controls Goes Here...
+        </form>
+
+    -->
+    <h1>Basic Forms</h1>
+    <form action="/login">
+      <input type="text" placeholder="Username" />
+      <input type="password" placeholder="Password" />
+      <button>Log Me In</button>
+    </form>
+    <!--
+        Whatever we here for the action, the form will
+        submit to that location.
+    -->
+  </body>
+</html>

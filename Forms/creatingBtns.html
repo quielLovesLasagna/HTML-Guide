@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating Buttons</title>
+  </head>
+  <body>
+    <!-- 
+        If the button is outside of the form, it will not do
+        anything. The button will only submit the form if it is
+        inside the form element.
+
+        As I said earlier, the default type/behavior of buttons is "submit".
+        If you set the type of a button to "button", it will not submit the form
+        even if it is inside the form element, it does not act as a submit button
+        because it's not, it's type is just "button".
+
+        Another way of making a button, a submission button, which is actually use
+        to use the input element:
+        <input type="submit" />
+        It works similarly with button but what's annoying is if I want to change the
+        text on it, then I have to use another attribute called value
+        <input type="submit" value="Log Me In" />
+        by doing this, it will change the text and not it will say Log Me In.
+        using input element to make a button is valid but it's just a little more
+        confusing to remember because to have to use the value attribute to change
+        the text instead of just using a regular button and if you want to change
+        the text, you just have to change the text in the middle.
+    -->
+    <h1>Basic Forms</h1>
+    <form action="/login">
+      <input type="text" placeholder="Username" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log Me In" />
+      <button>Log Me In</button>
+    </form>
+    <button>Does not work</button>
+  </body>
+</html>

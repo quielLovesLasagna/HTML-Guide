@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email, URL, and Number Inputs</title>
+  </head>
+  <body>
+    <!-- 
+        Visit this link to see all types of inputs:
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+
+        1) email type input is just like a text input but there is an
+        important distinction. (we can only notice the distinction if
+        the input is inside a form). The reason we put email type input
+        sinde a form element is because there is some validation on an
+        email input that is going to verify that I have an email shaped value
+        in the input when I try and submit the form.
+        If I don't have an email shaped value, it complains to me like:
+        Please include an @ sign in the email address.
+        This is not checking if it's a valid email. It's very simple, but it's
+        at least doing some checks.
+
+        One way to get away with this checks to to actually submit the form, is by
+        leaving the input empty (we will learn how to handle this later)
+
+        2) url type input. The idea of email is the same with URl where there's checking.
+
+        3) number type input, if you letter characters in this input, it will not
+        let you, you can only type numbers in number type input
+    -->
+    <h1>Input Elements</h1>
+    <form accept="">
+      <input type="email" placeholder="Email" />
+      <input type="url" placeholder="URL" />
+      <input type="number" placeholder="Number" />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

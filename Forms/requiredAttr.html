@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Required Attribute</title>
+  </head>
+  <body>
+    <!-- 
+        Use the required attribute to mark an
+        input as... required!
+        <input type="password" required />
+
+        If you want to force a value to be present in
+        some sort of input, you can use the required attrbute
+
+        We don't set the required attribute to anything.
+
+        If the input element that has the required attribute is
+        blank and user tries to submit the form, it will complain
+        and say something like: Please fill out this field. 
+
+        If we don't use the required attribute,
+        then our input is just optional.
+    -->
+  </body>
+  <h1>Required</h1>
+  <form action="">
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Username" required />
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="password" required />
+    <button>Submit</button>
+  </form>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Quick Note On Divs</title>
+  </head>
+  <body>
+    <!-- 
+        One quick note about forms sort of adjacent to forms is
+        there's a pattern you'll frequently see in forms, which is
+        to group/wrap together a label with its corresponding input
+        in another element, and that element often is something called 
+        <div>.
+
+        <div></div> is just like a box/container that you can use to
+        group content together. And then with CSS you could later style
+        the div. A <div> is a block element.
+
+    -->
+  </body>
+  <h1>Divs</h1>
+  <form action="">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Username" required />
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="password" required />
+    </div>
+    <button>Submit</button>
+  </form>
+</html>
