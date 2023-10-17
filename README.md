@@ -88,3 +88,20 @@ ___
 | Exercise Solution | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Forms/Exercise/Solution) | Exercise Solution |
 
 ___
+
+[```` More HTML Forms````](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/More%20Forms)
+
+| Topic | Code | Description |
+| ----------- | ----------- | ----------- |
+| Creating Text Areas | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/More%20Forms/creatingTextAreas.html) | Learn how to create text areas |
+| Working With Checkboxes | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/More%20Forms/checkbox.html) | Learn to work with checkboxes |
+| The Range Input | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/More%20Forms/range.html) | Learn about the range input type |
+| Making Dropdowns with Select and Options | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/More%20Forms/dropdowns.html) | Learn how to make dropdowns |
+| Creating Radio Button Groups | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/More%20Forms/radioBtn.html) | Learn about radio button groups |
+| Other Input Types | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/More%20Forms/otherInputs.html) | Know more about input types |
+| The Disabled Attribute | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/More%20Forms/disabledAttr.html) | Learn about the disabled attribute and what its used for |
+| Fieldsets and Legends | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/More%20Forms/fieldsetAndLegends.html) | Learn about fieldsets and legends |
+| Exercise | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/More%20Forms/Exercise/Starter) | An exercise to test your knowledge on the topics mentioned above |
+| Exercise Solution | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/More%20Forms/Exercise/Solution) | Exercise Solution |
+
+___
