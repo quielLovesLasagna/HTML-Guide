@@ -105,3 +105,16 @@ ___
 | Exercise Solution | [Code](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/More%20Forms/Exercise/Solution) | Exercise Solution |
 
 ___
+
+[````Semantic Elements and Multimedia````](https://github.com/quielLovesLasagna/HTML-Guide/tree/main/Semantic%20Elements%20and%20Multimedia)
+
+| Topic | Code | Description |
+| ----------- | ----------- | ----------- |
+| The Span Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/span.html) | Learn about the span element, how and where it's used, also learn about class attribute and id attribute |
+| What's The Point of A Div? | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/div.html) | Learn more about the div and what it's used for |
+| Introducing Semantic Markup | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/introSemantic.html) | Learn about what semantic markup is |
+| Exploring Semantic Elements | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/semanticMarkup.html) | Explore the different semantic elements |
+| Audio Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/audioElement.html) | Learn about the audio element and the different types of attributes to use to control audio |
+| Creating Video Elements | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/videoElement.html) | Learn about the video element and the different types of attributes to use to control video, also learn about the source element for both audio and video |
+
+___
