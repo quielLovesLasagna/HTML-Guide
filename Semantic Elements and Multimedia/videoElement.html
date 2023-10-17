@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Element</title>
+  </head>
+  <body>
+    <!--
+        <video src=""></video>
+        By default the video does not do anything,
+        it does not play.
+
+        We can add the following attributes to control
+        the video:
+
+        constrols => allows the user to have control
+        over the video
+
+        autoplay => autoplays the video when the page loads.
+        This attribute works depending on the browser. In chrome, it won't autoplay.
+        You can control this using JavaScript. UNLESS! the video is muted ;)
+        So, it can only auto play if the video is already muted when the page loads.
+
+        muted => mutes the video.
+
+        Additionally, if you have sound in a video and it's not muted, definitely
+        add the controls.
+
+        loop => loops the video.
+
+        Just like the audio, you can add text between <video>...content...</video>
+        but it won't be displayed/rendered unless that video can't load or the browser
+        does not recognize a video element.
+
+        Instead of adding the src attribute to the video element, one fancier thing you can do is
+        actually nest a source element inside the video.
+        <source> => does not have a closing tag. This allows us to specify multiple files types.
+        Let's say you have twp videos with the file type of .webm and .mp4, not all browsers
+        will support .webm, so if the browser does, it will use the source with .webm, if it does
+        not, it will keep moving until it finds a source that it can handle/that it recognize.
+
+        You can also add the type attribute inside the source element.
+        It is used to specify the media type (MIME type) of the resource 
+        you are linking to. It tells the browser what kind of media the 
+        linked file is, like an image, audio, or video. 
+
+        Read more here:
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+
+        You can also do this source element thing to audio element if you
+        want to provide multiple sources of the audio with different format.
+    -->
+    <h1>Video</h1>
+    <!-- <video src="./Video/Clouds.mp4" controls autoplay muted>...fallbackcontent...</video> -->
+    <video controls autoplay muted>
+      <source src="./Video/Clouds.mp4" type="video/mp4" />
+    </video>
+  </body>
+</html>

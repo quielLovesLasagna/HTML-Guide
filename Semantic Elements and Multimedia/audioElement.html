@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Elements</title>
+  </head>
+  <body>
+    <!-- 
+        <audio src=""></audio> => Use this to play audio. The
+        src is the source/file of the audio.
+        By default, when you make an audio element, you provide
+        a source, it's not going to play automatically when the
+        page loads and additonally, it's not gonna render any
+        controls for a use to interact with.
+        There are two things we can control:
+        if we want to add an audio player, where user can control
+        the autio element, we add the controls attribute to the
+        audio element, this controls attribute is a boolean attribute,
+        meaning, we don't set it to anything.
+
+        To autoplay something, we can add the autoplay attribute.
+        The audio/video will autoplay when the page loads. But Chrome
+        and some other modern browsers actually don't respect this attribute.
+        They ignore the auto play attribute because they believe it's too
+        obnoxious to have auto playing music on a page especially for screen
+        readers.
+        
+        loop attribute => the loop attribute will do what its name says, it 
+        makes the audio loop after it finishes.
+
+        muted => mutes the audio
+
+        Adding content between the audio tags is a way we can provide
+        fallback content for browsers that don't support audio elements (old browsers).
+
+        Read more here:
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+
+    -->
+    <h1>Audio</h1>
+    <audio src="./Audio/htmlsong.mp3" controls autoplay loop muted>
+      <a href="blah.com">download the song here</a>
+      <!-- 
+        this content won't be rendered in a modern browser
+        that knows about the audio element, but browsers
+        that fail to render the audio element or don't know
+        about it, old browsers will render the content
+        (which in this case is <a>) or whatever you have between
+        <audio></audio>.
+      -->
+    </audio>
+  </body>
+</html>

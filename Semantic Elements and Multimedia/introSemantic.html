@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introducing Semantic Markup</title>
+    <style>
+      span {
+        font-size: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+        Semantic Markup is a fancy way of saying that
+        when you write HTML, your tags should be meaningful.
+        
+        The HTML tags "say" something about the meaning of
+        their content.
+
+        They are still just containers. They don't know
+        anything. You won't see them unless you style them.
+        They behave exactly the same as a div, but they provide
+        meaning.
+        
+        Benefits:
+        1) Accessibility. It's way more accessible and screen
+        reader friendly.
+        2) Search Engines. When code is crawling across your
+        web pages, if it is marked up using semantic elements.
+        Let's take Google's web spider, for example, it's able to
+        identify what your website means.
+        3) Developer Sanity. It's a lot easier to work on a web page
+        where semantic elements are present. 
+
+        Semantic elements don't change anything in terms of the 
+        behavior or the appearanve of the web page. It's all 
+        about using these other elements to improve accessibility.
+
+    -->
+    <!-- 
+        NOT SEMANTIC 
+        
+        We used a span to make a heading, which means absolutely
+        nothing.
+    -->
+    <span>Naked Mole Rats</span>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt pariatur
+      laboriosam esse molestiae. Obcaecati culpa inventore nisi vitae, ea,
+      molestiae ad doloribus facere illum dolorum nesciunt, cupiditate libero
+      veniam aperiam?
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, vero
+      deleniti dolores labore officiis ut minima libero quisquam aspernatur
+      dolore modi alias molestias harum earum ipsum, quam iure amet atque?
+    </p>
+
+    <!-- 
+        SEMANTIC
+        
+        You can also change the font-size of the h1
+        but unlike using span to make a heading, using
+        an h1 is more meaningful.
+
+        The span means nothing, while the h1 does.
+    -->
+    <h1>Naked Mole Rats</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt pariatur
+      laboriosam esse molestiae. Obcaecati culpa inventore nisi vitae, ea,
+      molestiae ad doloribus facere illum dolorum nesciunt, cupiditate libero
+      veniam aperiam?
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, vero
+      deleniti dolores labore officiis ut minima libero quisquam aspernatur
+      dolore modi alias molestias harum earum ipsum, quam iure amet atque?
+    </p>
+  </body>
+</html>

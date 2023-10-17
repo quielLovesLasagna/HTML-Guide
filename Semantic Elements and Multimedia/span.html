@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Span Element</title>
+
+    <style>
+      .red {
+        color: red;
+      }
+
+      .green {
+        color: green;
+      }
+
+      .blue {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+        <span></span>
+        Spans are generic inline elements.
+        They have no special meaning but can be
+        styled later using CSS. Span is useful 
+        when it comes to styling cotent.
+
+        Any time you have text content that you 
+        want to style somewhat differently from 
+        the surrounding text content, would be a good
+        use case for <span>.
+
+        Assuming that it doesn't make more sense to use
+        <strong> or <em>, etc...
+
+        The way we use spans is we'll have a bunch of
+        spans across a page or a chunk of text that we
+        want to style.
+
+        You can add a class="" attribute to a span
+        class is just like an id (label) but a concept of a
+        class is that it's repeated, an ID can only occur once 
+        (unique to each element). A class is something that we
+        constantly refer back to and duplicate all over the place.
+        You can use the class attribute to target the labelled element
+        and style the elemen in CSS.
+
+        You should only use <span> when there is no better
+        inline element that suits your needs like <strong>,
+        <em>, <b>, etc.... or whatever you're trying to
+        accomplish. If there's more meaningful element, you
+        can use that. If not, you can use the span to wrap
+        around text content and then style it in some way
+        that you want, often by using a class and then CSS. 
+            
+        Look at the example below and the <style> above.
+    -->
+  </body>
+  <p>
+    Lorem <span class="red">ipsum dolor</span> sit amet, consectetur adipisicing
+    elit. Iste similique eveniet ratione qui?
+    <span class="green">Cupiditate</span> itaque ipsa delectus consequatur
+    accusantium? Ipsum laborum <span class="blue">voluptatum</span> natus
+    nostrum ipsa esse totam aspernatur obcaecati est.
+  </p>
+</html>

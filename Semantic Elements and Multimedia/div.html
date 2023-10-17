@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's The Point of a Div?</title>
+    <style>
+      .username-container {
+        border: 2px solid blue;
+        margin-bottom: 10px;
+      }
+
+      .password-container {
+        border: 2px solid green;
+        margin-bottom: 10px;
+      }
+
+      .form-container {
+        border: 2px solid red;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+        <div></div>
+        Divs are generic container that have no
+        inherent meaning. They are used to group
+        content together for styling.
+
+        It is like a <span></span> in the sense 
+        that it's a generic container. But unlike
+        the span, it takes up a whole block of space.
+        It's a box, it's not an inline element like
+        a span.
+
+        We <div> for situations where we want to group
+        content together to later style it. We use it to
+        form groups of content where there's no better 
+        elements that we would use to wrap that content.
+
+        See example below and style above. 
+    -->
+  </body>
+  <div class="form-container">
+    <form action="">
+      <div class="username-container">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required />
+      </div>
+      <div class="password-container">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required />
+      </div>
+      <button>Log In</button>
+    </form>
+  </div>
+</html>
