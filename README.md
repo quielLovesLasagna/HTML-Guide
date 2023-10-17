@@ -115,6 +115,6 @@ ___
 | Introducing Semantic Markup | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/introSemantic.html) | Learn about what semantic markup is |
 | Exploring Semantic Elements | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/semanticMarkup.html) | Explore the different semantic elements |
 | Audio Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/audioElement.html) | Learn about the audio element and the different types of attributes to use to control audio |
-| Creating Video Elements | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/videoElement.html) | Learn about the video element and the different types of attributes to use to control video, also learn about the source element for both audio and video |
+| Creating Video Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/videoElement.html) | Learn about the video element and the different types of attributes to use to control video, also learn about the source element for both audio and video |
 
 ___
