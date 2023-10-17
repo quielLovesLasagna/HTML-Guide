@@ -118,3 +118,12 @@ ___
 | Creating Video Element | [Code](https://github.com/quielLovesLasagna/HTML-Guide/blob/main/Semantic%20Elements%20and%20Multimedia/videoElement.html) | Learn about the video element and the different types of attributes to use to control video, also learn about the source element for both audio and video |
 
 ___
+
+![alt text](https://pbs.twimg.com/media/CcW1ahpUEAUMMup?format=jpg&name=small "Logo Title Text 1")
+
+If you have finished learning HTML from start to finish using this guide, Congrats! You now have the proper knowledge of HTML and ready to take on CSS or JavaScript or any other langauge that you want to use in your developer journey.
+
+___
+
+If you want to learn this through video format, you can [check this out](https://www.udemy.com/course/the-complete-guide-to-html/). Some of the sources used in this guide are not mine and I do not own them. Special thanks to [Colt Steele](https://www.udemy.com/user/coltsteele/).
+
